@@ -11,8 +11,8 @@ Finite difference and finite volume schemes modelling plasma in 1 and 2 dimensio
 - HLLC to approximate exact solution with 3 waves
 - MUSCL-hancock in 1D and 2D with mixed GLM divergence cleaning
   <p align="center">
-  <img src="MUSCL.gif" alt="Orzang-Tang Animation" width="400" />
-  <img src="MUSCL2.gif" alt="Kelvin-Helmhotz Animation" width="400" />
+  <img src="MUSCL.gif" alt="Orzang-Tang Animation" width="350" />
+  <img src="MUSCL2.gif" alt="Kelvin-Helmhotz Animation" width="350" />
 </p>
 
 <p align="center"><em>Figures 1 & 2: Using MUSCL-Hancock to model Density for Orazang-Tang vortex and Magnetic Field ratio for Kelvin-Helmhotz instability</em></p>
