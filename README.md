@@ -18,7 +18,7 @@ Finite difference and finite volume schemes modelling plasma in 1 and 2 dimensio
 <p align="center"><em>Figures 1 & 2: Using MUSCL-Hancock to model Density for Orazang-Tang vortex and Magnetic Field ratio for Kelvin-Helmhotz instability</em></p>
 
 ## Linear Solov'Ev equation solver
-Solving the sparse linear equation to solve the Solov'Ev equation modelling a nuclear fusion reactor. The linear system was solved with the C++ Eigen library, as well as analytically.
+Solving the sparse linear equation to solve the Solov'Ev equation modelling a Tokamak nuclear fusion reactor. The linear system was solved with the C++ Eigen library, as well as analytically.
 
   <p align="center">
   <img src="solovev.png" alt="Solov'Ev Solution" width="300" />
