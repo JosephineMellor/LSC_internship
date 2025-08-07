@@ -18,7 +18,7 @@ Finite difference and finite volume schemes modelling plasma in 1 and 2 dimensio
       </td>
       <td>
         <img src="MUSCL2.gif" alt="Kelvin-Helmhotz Animation" width="300"/><br/>
-        <p align="center"><em>Figure 2: Using MUSCL-Hancock to model Denisty for Kelvin-Helmhotz instability</em></p>
+        <p align="center"><em>Figure 2: Using MUSCL-Hancock to model $\frac{\sqrt{B_x + B_y}}{B_z}$ for Kelvin-Helmhotz instability</em></p>
       </td>
     </tr>
   </table>
