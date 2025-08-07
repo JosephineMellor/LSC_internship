@@ -10,29 +10,20 @@ Finite difference and finite volume schemes modelling plasma in 1 and 2 dimensio
 - Slope limiting scheme in 1D and 2D (SLIC)
 - HLLC to approximate exact solution with 3 waves
 - MUSCL-hancock in 1D and 2D with mixed GLM divergence cleaning
-  <table style="border-collapse: collapse;">
-    <tr>
-      <td>
-        <img src="MUSCL.gif" alt="Orzang-Tang Animation" width="300"/><br/>
-        <p align="center"><em>Figure 1: Using MUSCL-Hancock to model Denisty for Orazang-Tang vortex</em></p>
-      </td>
-      <td>
-        <img src="MUSCL2.gif" alt="Kelvin-Helmhotz Animation" width="300"/><br/>
-        <p align="center"><em>Figure 2: Using MUSCL-Hancock to model ratio of magnetic feilds for Kelvin-Helmhotz instability</em></p>
-      </td>
-    </tr>
-  </table>
+  <p align="center">
+  <img src="MUSCL.gif" alt="Orzang-Tang Animation" width="300" />
+  <img src="MUSCL2.gif" alt="Kelvin-Helmhotz Animation" width="300" />
+</p>
+
+<p align="center"><em>Figures 1 & 2: Using MUSCL-Hancock to model Density for Orazang-Tang vortex and Magnetic Field ratio for Kelvin-Helmhotz instability</em></p>
+
 ## Linear Solov'Ev equation solver
 Solving the sparse linear equation to solve the Solov'Ev equation modelling a nuclear fusion reactor. The linear system was solved with the C++ Eigen library, as well as analytically.
-<table style="border-collapse: collapse;">
-    <tr>
-      <td>
-        <img src="solovev.gif" alt="Solov'Ev Solution" width="300"/><br/>
-        <p align="center"><em>Figure 3: Solov'Ev solution with a linear solver</em></p>
-      </td>
-      <td>
-        <img src="solovev_exact.gif" alt="Exact Solov'Ev Solution" width="300"/><br/>
-        <p align="center"><em>Figure 4: Solov'Ev exat solution</em></p>
-      </td>
-    </tr>
-  </table>
+
+  <p align="center">
+  <img src="solovev.png" alt="Solov'Ev Solution" width="300" />
+  <img src="solovev_exact.png" alt="Exact Solov'Ev Solution" width="300" />
+</p>
+
+<p align="center"><em>Figures 3 & 4: Solov'Ev solution with a sparse linear solver and Solov'Ev exact solution</em></p>
+
