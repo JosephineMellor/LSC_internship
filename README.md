@@ -10,7 +10,7 @@ Finite difference and finite volume schemes modelling plasma in 1 and 2 dimensio
 - Slope limiting scheme in 1D and 2D (SLIC)
 - HLLC to approximate exact solution with 3 waves
 - MUSCL-hancock in 1D and 2D with mixed GLM divergence cleaning
-  <table>
+  <table style="border-collapse: collapse;">
     <tr>
       <td>
         <img src="MUSCL.gif" alt="Orzang-Tang Animation" width="300"/><br/>
@@ -24,7 +24,7 @@ Finite difference and finite volume schemes modelling plasma in 1 and 2 dimensio
   </table>
 ## Linear Solov'Ev equation solver
 Solving the sparse linear equation to solve the Solov'Ev equation modelling a nuclear fusion reactor. The linear system was solved with the C++ Eigen library, as well as analytically.
-<table>
+<table style="border-collapse: collapse;">
     <tr>
       <td>
         <img src="solovev.gif" alt="Solov'Ev Solution" width="300"/><br/>
